@@ -1,1 +1,111 @@
+/*
+Welcome to 'Learn C'.
+
+In this file I will teach myself to learn to code in C.
+You are welcome to learn along!
+*/
+
+
+#include <stdio.h>
+#include <cs50.h>
+
+
+
+// Hello, World
+
+int main(void)
+{
+    printf("hello, world\n");
+}
+
+
+
+// Variables
+
+int main(void)
+{
+    string answer = get_string("What's your name? ");
+    printf("hello, %s\n", answer);
+}
+
+
+
+// Conditionals
+
+int main(void)
+{
+    int x = get_int("What's x? ");
+    int y = get_int("What's y? ");
+
+    if (x < y)
+    {
+        printf("x is less than y\n");
+    }
+    else if (x > y)
+    {
+        printf("x is greater than y\n");
+    }
+    else
+    {
+        printf("x is equal to y\n");
+    }
+}
+
+// or
+
+int main(void)
+{
+    // Prompt user to agree
+    char c = get_char("Do you agree? ");
+
+    // Check whether agreed
+    if (c == 'Y' || c == 'y')
+    {
+        printf("Agreed.\n");
+    }
+    else if (c == 'N' || c == 'n')
+    {
+        printf("Not agreed.\n");
+    }
+}
+
+
+
+// Loops
+
+// while
+
+int main(void)
+{
+    int i = 0;
+    while (i < 3)
+    {
+        printf("meow\n");
+        i++;
+    }
+}
+
+// or
+
+int main(void)
+{
+    int i = 3;
+    while (i > 0)
+    {
+        printf("meow\n");
+        i--;
+    }
+}
+
+// for
+
+int main(void)
+{
+    for (int i = 0; i < 3; i++)
+    {
+        printf("meow\n");
+    }
+}
+
+
 
