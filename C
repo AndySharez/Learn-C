@@ -6,27 +6,27 @@ This is just a cheat-sheet for C syntax.
 
 
 
-/*
 
 
-Basic syntax and functions
 
-Boilerplate Code:
+// Basic syntax and functions
 
-#include<stdio.h> //header files
+// Boilerplate Code:
+
+#include <stdio.h> //header files
 int main() //main function
 {
     // Your code here
     return(0); //returning value to int main()
 }
 
-printf() function:
+// printf() function:
 
-It is used to show output on the screen
+// It is used to show output on the screen
 
 printf("Hello World!");
 
-scanf() function:
+// scanf() function:
 
 It is used to take input from the user
 
@@ -660,7 +660,7 @@ If the allocated memory is insufficient, then we can change the size of previous
 
 ptr = realloc(ptr, x);
 
-*/
+
 
 
 
