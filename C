@@ -28,83 +28,84 @@ printf("Hello World!");
 
 // scanf() function:
 
-It is used to take input from the user
+// It is used to take input from the user
 
 scanf("format_specifier", &variables)
 
-We use & with the variable name to represent "address of". This is how the syntax works:
+// Use & with the variable name to represent "address of". This is how the syntax works:
 
 int a;
 scanf("%d",&a); // Store keyboard input in a variable with address (address of a or &a)
 printf("%d",&a);
 
 
-Comments:
+// Comments:
 
-A comment is a code that is not executed by the compiler, and the programmer uses it to annotate their code, providing explanations or reminders about the code's functionality, which aids in readability and future maintenance.
-Single line comment
+// A comment is a code that is not executed by the compiler, and the programmer uses it to annotate their code, providing explanations or reminders about the code's functionality, which aids in readability and future maintenance.
+// Single line comment
 
-// This is a single line comment
+// This is a single line comment: //
 
-Multi-line comment
+// Multi-line comment
 
 /* This is a 
 multi-line
 comment
 */
 
-Data types:
+// Data types:
 
-The data type defines the kind of data that can be stored in a variable, such as integers, floating-point numbers, characters, or more complex structures. It dictates how the data is stored, interpreted, and manipulated within the program.
-Character type
+// The data type defines the kind of data that can be stored in a variable, such as integers, floating-point numbers, characters, or more complex structures. It dictates how the data is stored, interpreted, and manipulated within the program.
 
-The character type, often represented as a single octet (one byte), is used to store individual characters in the C programming language.
+// Character type:
+
+// The character type, often represented as a single octet (one byte), is used to store individual characters in the C programming language.
 
 char variable_name;
 
-The format specifier for a character in C is "%c". To print a character, we use this specifier within the printf function, following the syntax like this:
+// The format specifier for a character in C is "%c". To print a character, we use this specifier within the printf function, following the syntax like this:
 
 char x;
 scanf(" %c",&x);
 printf("character is %c",x)
 
-Integer type:
+// Integer type:
 
-To store non-decimal numeric values, an integer type is used
+// To store non-decimal numeric values, an integer type is used
 
 int variable_name;
 
-The format specifier of an integer is "%d"
+// The format specifier of an integer is "%d"
 
 int a;
 scanf("%d",&a);
 printf("%d",a);
 
-Float type:
+// Float type:
 
-To store decimal numeric values, float type is used
+// To store decimal numeric values, float type is used
 
 float variable_name;
 
-The format specifier of a float is "%f"
+// The format specifier of a float is "%f"
 
 float b;
 scanf("%f",&b);
 printf("%f",b);
 
-Double type:
+// Double type:
 
-To store a double-precision floating-point value we use double.
+// To store a double-precision floating-point value we use double.
 
 double variable_name;
 
-The format specifier of double is "%f"
+// The format specifier of double is "%f"
 
 double ch;
 scanf("%lf",&ch);
 printf("%lf",ch);
 
-Void type:
+// Void type:
 
 The void type in C represents the absence of a type. It's often used in function declarations to specify that the function does not return any value. For example:
 
@@ -112,9 +113,9 @@ void myFunction() {
   // Function code here
 }
 
-In this context, the void keyword indicates that myFunction does not return a value. It can also be used for function parameters to indicate that a function takes no arguments
+// In this context, the void keyword indicates that myFunction does not return a value. It can also be used for function parameters to indicate that a function takes no arguments
 
-Escape Sequences:
+// Escape Sequences:
 
 Escape sequences in C are combinations of characters that begin with a backslash (\) and are used to represent characters that cannot be typed directly. These sequences are interpreted in a special way when used inside string literals or character constants.
 
