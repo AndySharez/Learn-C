@@ -11,7 +11,8 @@ This is a cheat-sheet for C syntax.
 
 // Basic syntax and functions
 
-// Boilerplate Code:
+
+// Standard main function:
 
 #include <stdio.h> //header files
 int main() //main function
