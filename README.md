@@ -1,2 +1,2 @@
 # Learn-C
-Learn C with me
+This is just a repository for cheatsheets, syntax, Tips & Tricks around C.
