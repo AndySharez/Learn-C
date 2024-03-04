@@ -155,9 +155,9 @@ int main()
 
 // Newline:
 
-Newline Character
+// Newline Character
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     printf("Line one\nLine two"); // Prints two lines
@@ -168,7 +168,7 @@ int main()
 
 // The carriage return, represented by the escape sequence \r in the C programming language, is a control character that resets the cursor position to the beginning of the current line. It doesn't erase any characters but simply moves the cursor to the start of the line. The string "Hello" is printed first, then the carriage return moves the cursor back to the beginning of the line, and "World" is printed, overwriting "Hello."
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 { 
     printf("Hello\rWorld"); // Outputs "World" but behavior might vary depending on the OS
@@ -179,7 +179,7 @@ int main()
 
 // It gives a tab space
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     printf("Tabbed\ttext"); // Adds a tab space
@@ -190,7 +190,7 @@ int main()
 
 // It adds a backslash
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     printf("\\"); // Prints a backslash
@@ -201,7 +201,7 @@ int main()
 
 // It adds a single quotation mark
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     printf("\'"); // Prints a single quotation mark
@@ -212,7 +212,7 @@ int main()
 
 // It adds a question mark
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     printf("\?"); // Prints a question mark
@@ -223,7 +223,7 @@ int main()
 
 // It represents the value of an octal number
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     printf("\101"); // Prints 'A', which is 101 in octal
@@ -234,7 +234,7 @@ int main()
 
 // It represents the value of a hexadecimal number
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     printf("\x41"); // Prints 'A', which is 41 in hexadecimal
@@ -245,7 +245,7 @@ int main()
 
 // The null character is usually used to terminate a string
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     printf("\0");
@@ -488,7 +488,7 @@ int main() {
 
 data_type array_name[array_size];
 
-#include<stdio.h>                         
+#include <stdio.h>                         
 int main()                               
 {
 int arr[10];   
