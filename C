@@ -1,7 +1,7 @@
 /*
 Welcome to 'Learn C'.
 
-This is just a cheat-sheet for C syntax.
+This is a cheat-sheet for C syntax.
 */
 
 
