@@ -107,7 +107,7 @@ printf("%lf",ch);
 
 // Void type:
 
-The void type in C represents the absence of a type. It's often used in function declarations to specify that the function does not return any value. For example:
+// The void type in C represents the absence of a type. It's often used in function declarations to specify that the function does not return any value. For example:
 
 void myFunction() {
   // Function code here
@@ -117,12 +117,13 @@ void myFunction() {
 
 // Escape Sequences:
 
-Escape sequences in C are combinations of characters that begin with a backslash (\) and are used to represent characters that cannot be typed directly. These sequences are interpreted in a special way when used inside string literals or character constants.
+// Escape sequences in C are combinations of characters that begin with a backslash (\) and are used to represent characters that cannot be typed directly. These sequences are interpreted in a special way when used inside string literals or character constants.
 
-For example, the escape sequence \n represents a newline character, and \t represents a tab character. Here are some escape sequence characters used in C language.
-Alarm or Beep
+// For example, the escape sequence \n represents a newline character, and \t represents a tab character. Here are some escape sequence characters used in C language.
 
-\a produces a beep sound
+//Alarm or Beep:
+
+// \a produces a beep sound
 
 #include<stdio.h>
 int main()
@@ -131,9 +132,9 @@ int main()
     return 0;
 }
 
-Backspace:
+// Backspace:
 
-\b adds a backspace
+// \b adds a backspace
 
 #include<stdio.h>
 int main()
@@ -142,7 +143,7 @@ int main()
     return 0;
 }
 
-Form feed:
+// Form feed:
 
 #include<stdio.h>
 int main()
@@ -151,7 +152,7 @@ int main()
     return 0;
 }
 
-Newline:
+// Newline:
 
 Newline Character
 
@@ -162,9 +163,9 @@ int main()
     return 0;
 }
 
-Carriage return:
+// Carriage return:
 
-The carriage return, represented by the escape sequence \r in the C programming language, is a control character that resets the cursor position to the beginning of the current line. It doesn't erase any characters but simply moves the cursor to the start of the line. The string "Hello" is printed first, then the carriage return moves the cursor back to the beginning of the line, and "World" is printed, overwriting "Hello."
+// The carriage return, represented by the escape sequence \r in the C programming language, is a control character that resets the cursor position to the beginning of the current line. It doesn't erase any characters but simply moves the cursor to the start of the line. The string "Hello" is printed first, then the carriage return moves the cursor back to the beginning of the line, and "World" is printed, overwriting "Hello."
 
 #include<stdio.h>
 int main()
@@ -173,9 +174,9 @@ int main()
     return 0;
 }
 
-Tab:
+// Tab:
 
-It gives a tab space
+// It gives a tab space
 
 #include<stdio.h>
 int main()
@@ -184,9 +185,9 @@ int main()
     return 0;
 }
 
-Backslash:
+// Backslash:
 
-It adds a backslash
+// It adds a backslash
 
 #include<stdio.h>
 int main()
@@ -195,9 +196,9 @@ int main()
     return 0;
 }
 
-Single quote:
+// Single quote:
 
-It adds a single quotation mark
+// It adds a single quotation mark
 
 #include<stdio.h>
 int main()
@@ -206,9 +207,9 @@ int main()
     return 0;
 }
 
-Question mark:
+//Question mark:
 
-It adds a question mark
+// It adds a question mark
 
 #include<stdio.h>
 int main()
@@ -217,9 +218,9 @@ int main()
     return 0;
 }
 
-Octal No.:
+// Octal No.:
 
-It represents the value of an octal number
+// It represents the value of an octal number
 
 #include<stdio.h>
 int main()
@@ -228,9 +229,9 @@ int main()
     return 0;
 }
 
-Hexadecimal No.:
+// Hexadecimal No.:
 
-It represents the value of a hexadecimal number
+// It represents the value of a hexadecimal number
 
 #include<stdio.h>
 int main()
@@ -239,9 +240,9 @@ int main()
     return 0;
 }
 
-Null:
+// Null:
 
-The null character is usually used to terminate a string
+// The null character is usually used to terminate a string
 
 #include<stdio.h>
 int main()
@@ -251,17 +252,18 @@ int main()
     return 0;
 }
 
-Conditional Instructions:
+// Conditional Instructions:
 
-Conditional statements are used to perform operations based on some condition.
-If Statement
+// Conditional statements are used to perform operations based on some condition.
+
+// If Statement:
 
 if (/* condition */)
 {
     /* code */
 }
 
-If-else Statement:
+// If-else Statement:
 
 if (/* condition */)
 {
@@ -271,7 +273,7 @@ else{
     /* Code */
 }
 
-if else-if Statement:
+// if else-if Statement:
 
 if (condition) {
     // Statements;
@@ -283,7 +285,7 @@ else{
     // Statements
 }
 
-nested if-else:
+// nested if-else:
 
 if (/* condition */) {
     if (/* condition */) {
@@ -295,9 +297,9 @@ if (/* condition */) {
     /* Code */
 }
 
-Switch Case Statement:
+// Switch Case Statement:
 
-It allows a variable to be tested for equality against a list of values (cases).
+// It allows a variable to be tested for equality against a list of values (cases).
 
 switch (expression) {
     case constant-expression:
@@ -312,21 +314,23 @@ switch (expression) {
         statement;
 }
 
-Iterative Statements:
 
-Iterative statements facilitate programmers to execute any block of code lines repeatedly and can be controlled as per conditions added by the programmer.
-while Loop
+// Iterative Statements:
 
-It allows the execution of statements inside the block of the loop until the condition of the loop succeeds.
+// Iterative statements facilitate programmers to execute any block of code lines repeatedly and can be controlled as per conditions added by the programmer.
+
+// while Loop:
+
+// It allows the execution of statements inside the block of the loop until the condition of the loop succeeds.
 
 while (/* condition */)
 {
     /* code */
 }
 
-do-while loop:
+// do-while loop:
 
-It is an exit-controlled loop. It is very similar to the while loop with one difference, i.e., the body of the do-while loop is executed at least once even if the expression is false
+// It is an exit-controlled loop. It is very similar to the while loop with one difference, i.e., the body of the do-while loop is executed at least once even if the expression is false
 
 do
 {
@@ -335,16 +339,16 @@ do
 
 for loop:
 
-It is used to iterate the statements or a part of the program several times. It is frequently used to traverse the data structures like the array and linked list.
+// It is used to iterate the statements or a part of the program several times. It is frequently used to traverse the data structures like the array and linked list.
 
 for (int i = 0; i < count; i++)
 {
     /* code */
 }
 
-Break Statement:
+// Break Statement:
 
-break keyword inside the loop is used to terminate the loop
+// break keyword inside the loop is used to terminate the loop
 
 #include <stdio.h>
 
@@ -360,7 +364,7 @@ int main() {
     return 0;
 }
 
-Here is the output of the above code:
+// Here is the output of the above code:
 
 i = 0
 i = 1
@@ -369,9 +373,9 @@ i = 3
 i = 4
 Loop is breaking at i = 5
 
-Continue Statement:
+// Continue Statement:
 
-continue keyword skips the rest of the current iteration of the loop and returns to the starting point of the loop
+// continue keyword skips the rest of the current iteration of the loop and returns to the starting point of the loop
 
 #include <stdio.h>
 
@@ -388,45 +392,46 @@ int main() {
 // Output is 1 3 5 7 9
 
 
-Functions & Recursion:
+// Functions & Recursion:
 
-Functions are used to divide an extensive program into smaller pieces. It can be called multiple times to provide reusability and modularity to the C program.
-Function Definition
+// Functions are used to divide an extensive program into smaller pieces. It can be called multiple times to provide reusability and modularity to the C program.
+
+//Function Definition
 
 return_type function_name(data_type parameter...){ 
 //code to be executed 
 }
 
-Function Call:
+// Function Call:
 
 function_name(parameters...);
 
 return_type in functions
 
-The function return statement returns the specified value or data item to the caller. If we do not want to return any value simply place a void before the function name while defining it.
+// The function return statement returns the specified value or data item to the caller. If we do not want to return any value simply place a void before the function name while defining it.
 
 return_type function_name()
 {
     return value;
 }
 
-Parameters in Python function:
+// Parameters in function:
 
-Parameters are the values passed inside the parenthesis of the function while defining as well as while calling.
+// Parameters are the values passed inside the parenthesis of the function while defining as well as while calling.
 
 return_type function_name(data_type parameter...){    //defining the functions with parameters
     //code to be executed 
 }
 function_name(parameter...);    //calling the functions with parameters
 
-Ways of calling a function
+// Ways of calling a function
 
     With return value and with parameters
     Without return value and with parameters
     With return value and without parameters
     Without return value and without parameters
 
-Recursion:
+// Recursion:
 
 Recursion is when a function calls a copy of itself to work on a minor problem. And the function that calls itself is known as the Recursive function.
 
@@ -437,14 +442,15 @@ void recurse()
     ... .. ...
 }
 
-Pointers:
+// Pointers:
 
-A pointer is a variable that contains the address of another variable,
-Declaration
+// A pointer is a variable that contains the address of another variable:
+
+//Declaration:
 
 datatype *var_name;
 
-We can allocate the address of the pointing variable to the pointer variable
+// We can allocate the address of the pointing variable to the pointer variable
 
 #include <stdio.h>
 
@@ -460,7 +466,7 @@ int main() {
 }
  
 
-Dereferencing pointer variable:
+// Dereferencing pointer variable:
 
 #include <stdio.h>
 
@@ -473,10 +479,11 @@ int main() {
     return 0;
 }
 
-Arrays:
+// Arrays:
 
-An array is a collection of data items of the same type.
-Declaration
+// An array is a collection of data items of the same type:
+
+// Declaration:
 
 data_type array_name[array_size];
 
@@ -486,32 +493,33 @@ int main()
 int arr[10];   
 }
 
-Accessing element:
+// Accessing element:
 
 data_type variable_name = array[index];
 
-Strings:
+// Strings:
 
-A string is a 1-D character array terminated by a null character ('\0')
-Declaration
+// A string is a 1-D character array terminated by a null character ('\0')
+
+// Declaration:
 
 char str_name[size];
 
-gets() function
+// gets() function:
 
-It allows you to enter a multi-word string.
+// It allows you to enter a multi-word string.
 
 gets("string");
 
-puts() function
+puts() function:
 
-It is used to show string output
+// It is used to show string output
 
 puts("string");
 
-fgets() function
+// fgets() function:
 
-The gets() function is considered unsafe, and it is better to use fgets() instead.
+// The gets() function is considered unsafe, and it is better to use fgets() instead.
 
 #include <stdio.h>
 
@@ -523,55 +531,56 @@ int main() {
     return 0;
 }
 
-String Functions:
+// String Functions:
 
-strlen() function:
+// strlen() function:
 
-It is used to calculate the length of the string
+// It is used to calculate the length of the string
 
 strlen(string_name);
 
-strcpy() function:
+// strcpy() function:
 
-It is used to copy the content of second-string into the first string passed to it
+// It is used to copy the content of second-string into the first string passed to it
 
 strcpy(destination, source);
 
-strcat() function:
+// strcat() function:
 
-It is used to concatenate two strings
+// It is used to concatenate two strings
 
 strcat(first_string, second_string);
 
-strcmp() function:
+// strcmp() function:
 
-It is used to compare two strings
+// It is used to compare two strings
 
 strcmp(first_string, second_string);
 
-strlwr() function:
+// strlwr() function:
 
-It is used to convert characters of strings into lowercase
+// It is used to convert characters of strings into lowercase
 
 strlwr(string_name);
 
-strupr() function:
+// strupr() function:
 
-It is used to convert characters of strings into uppercase
+// It is used to convert characters of strings into uppercase
 
 strupr(string_name);
 
-strrev() function:
+// strrev() function:
 
-It is used to reverse the string
+// It is used to reverse the string
 
 strrev(string_name);
 
 
-Structures:
+// Structures:
 
-The structure is a collection of variables of different types under a single name. Defining structure means creating a new data type.
-Structure syntax
+// The structure is a collection of variables of different types under a single name. Defining structure means creating a new data type.
+
+// Structure syntax:
 
 struct structureName 
 {
@@ -580,9 +589,9 @@ struct structureName
     ...
 };
 
-typedef keyword:
+// typedef keyword:
 
-typedef function allows users to provide alternative names for the primitive and user-defined data types.
+// typedef function allows users to provide alternative names for the primitive and user-defined data types.
 
 typedef struct structureName 
 {
@@ -592,74 +601,78 @@ typedef struct structureName
 } new_name;
 
 
-File Handling:
+// File Handling:
 
-A set of methods for handling File IO (read/write/append) in C language
-FILE pointer
+// A set of methods for handling File IO (read/write/append) in C language:
+
+// FILE pointer:
 
 FILE *filePointer;
 
-Opening a file:
+// Opening a file:
 
 filePointer = fopen(fileName.txt, w)
 
-fscanf() function:
+// fscanf() function:
 
-It is used to read the content of a file.
+// It is used to read the content of a file.
 
 fscanf(FILE *stream, const char *format, ...)
 
-fprintf() function:
+// fprintf() function:
 
-It is used to write content into the file.
+// It is used to write content into the file.
 
 fprintf(FILE *fptr, const char *str, ...);
 
-fgetc() function:
+// fgetc() function:
 
-It reads a character from a file opened in read mode. It returns EOF on reaching the end of the file.
+// It reads a character from a file opened in read mode. It returns EOF on reaching the end of the file.
 
 fgetc(FILE *pointer);
 
-fputc() function:
+// fputc() function:
 
-It writes a character to a file opened in write mode
+// It writes a character to a file opened in write mode
 
 fputc(char, FILE *pointer);
 
-Closing a file:
+// Closing a file:
 
-It closes the file.
+// It closes the file.
 
 fclose(filePointer);
 
 
-Dynamic Memory Allocation:
+// Dynamic Memory Allocation:
 
-A set of functions for dynamic memory allocation from the heap. These methods are used to use the dynamic memory which makes our C programs more efficient
-malloc() function
+// A set of functions for dynamic memory allocation from the heap. These methods are used to use the dynamic memory which makes our C programs more efficient
 
-Stands for 'Memory allocation' and reserves a block of memory with the given amount of bytes.
+// malloc() function:
+
+// Stands for 'Memory allocation' and reserves a block of memory with the given amount of bytes.
 
 ptr = (castType*) malloc(size);
 
-calloc() function
+// calloc() function:
 
-Stands for 'Contiguous allocation' and reserves n blocks of memory with the given amount of bytes.
+// Stands for 'Contiguous allocation' and reserves n blocks of memory with the given amount of bytes.
 
 ptr = (castType*)calloc(n, size);
 
-free function
+// free function:
 
-It is used to free the allocated memory.
+// It is used to free the allocated memory.
 
 free(ptr);
 
-realloc() function
+// realloc() function:
 
-If the allocated memory is insufficient, then we can change the size of previously allocated memory using this function for efficiency purposes
+// If the allocated memory is insufficient, then we can change the size of previously allocated memory using this function for efficiency purposes
 
 ptr = realloc(ptr, x);
+
+// End
 
 
 
