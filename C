@@ -122,7 +122,7 @@ void myFunction() {
 
 // For example, the escape sequence \n represents a newline character, and \t represents a tab character. Here are some escape sequence characters used in C language.
 
-//Alarm or Beep:
+// Alarm or Beep:
 
 // \a produces a beep sound
 
